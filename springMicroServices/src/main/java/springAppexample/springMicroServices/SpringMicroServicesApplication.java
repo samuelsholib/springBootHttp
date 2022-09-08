@@ -18,17 +18,7 @@ public class SpringMicroServicesApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringMicroServicesApplication.class, args);
 	}
-	@GetMapping
-	public List <Student> greeting() {
-		return List.of(
-				new Student (10L,
-						"mariah",
-						"mariah.cantwell@gmail.com",
-						LocalDate.of(2001,Month.JANUARY, 23),
-						20
 
-				)
-				);
 	}
 
-}
+
